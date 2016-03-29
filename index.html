@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<style type="text/css">
+	    *{
+    margin: 0;
+    padding: 0;
+    	}
+		#display{
+		border: 1px solid black;
+		background:#189471;
+		width: 250px;
+		height: 50px;
+		font-size: 45px;
+		font-family: arial;
+    text-align: center;
+		margin-bottom: 25px;
+		}
+		input[type="button"]{
+		width: 100px;
+		height: 40px;
+		background: #081F15;
+		border: none;
+		border-radius: 15px;
+		color:white;
+		font-size: 25px;
+		font-family: arial;
+		}
+		.wrapper{
+		width: 250px;
+		height: 130px;
+		background: gray;
+		padding: 15px;
+		margin: 25px;
+		text-align: center;
+		border-radius: 15px;
+		}
+	</style>
+	<title>Stopwatch</title>
+	<script type="text/javascript" src="script.js"> </script>
+</head>
+<body>
+<div class="wrapper">
+	<p id="display">00 : 00 : 00<p>
+	<input type="button" value="Start" id="butn"  onClick="changeButn()"/>
+	<input type="button" value="Reset" id="reset"  onClick="reset()"/>
+</div>
+</body>
+</html>
